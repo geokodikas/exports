@@ -1,0 +1,9 @@
+countries:
+  Monaco:
+    - completed: false
+      download_date: 2019-09-05T14:18:22+0000
+      osm_pbf_file: http://download.openstreetmap.fr/extracts/europe/monaco-latest.osm.pbf
+      osm_pbf_md5sum: eacf941f8acbd0ca68bb98b02e2e6b98
+      export_filename: ''
+      export_download_url: ''
+      export_md5sum: ''
