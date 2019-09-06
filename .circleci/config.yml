@@ -19,7 +19,7 @@ jobs:
           name: Run Exporters
           command: |
             docker pull geokodikas/export-manager:master
-            docker run  -v $PWD/output:/opt/geokodikas/tmp  -v /var/run/docker.sock:/var/run/docker.sock -i --net=host geokodikas/export-manager:master < exports.yaml
+            docker run  -v $PWD/output:/opt/geokodikas/tmp -e POSTGIS_LOW_MEM=yes -v /var/run/docker.sock:/var/run/docker.sock -i --net=host geokodikas/export-manager:master < exports.yaml
             mkdir -p artifacts
             cp output/full_import* artifacts/
 
