@@ -6,7 +6,7 @@ version: 2
 executorType: machine
 
 jobs:
-  generate-exports:
+  build:
     machine:
       image: ubuntu-1604:201903-01
 
