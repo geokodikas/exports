@@ -21,7 +21,7 @@ jobs:
             docker pull geokodikas/export-manager:master
             docker run  -v $PWD/output:/opt/geokodikas/tmp  -v /var/run/docker.sock:/var/run/docker.sock -i --net=host geokodikas/export-manager:master < exports.yaml
             mkdir -p artifacts
-            cp tmp/full_import* artifacts/
+            cp output/full_import* artifacts/
 
       - store_artifacts:
           path: ~/repo/artifacts
