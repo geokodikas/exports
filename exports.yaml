@@ -9,9 +9,9 @@ countries:
       export_md5sum: '5552f1df157e7726cd99392c9299dddd'
   Belgium:
     - completed: false
-      download_date: 2019-09-06T10:11:33+0000
+      download_date: 2019-09-09T10:00:00+0000
       osm_pbf_file: http://download.openstreetmap.fr/extracts/europe/belgium-latest.osm.pbf
-      osm_pbf_md5sum: a3bada0e5fa71d699772ca5bec484bb7
+      osm_pbf_md5sum: 17630c587d1a44832b1e4d5d345d2533
       export_filename: ''
       export_download_url: ''
       export_md5sum: ''
