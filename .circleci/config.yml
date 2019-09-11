@@ -21,7 +21,7 @@ jobs:
             docker pull geokodikas/ci-export-manager:master
             docker run  --memory=4000000000 -v $PWD/output:/opt/geokodikas/tmp -v /var/run/docker.sock:/var/run/docker.sock -i --net=host geokodikas/ci-export-manager:master < exports.yaml
             mkdir -p artifacts
-            cp output/full_import* artifacts/
+            cp output/full_import* artifacts/ || true # ignore if no output was generated
 
       - store_artifacts:
           path: ~/repo/artifacts
