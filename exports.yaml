@@ -8,7 +8,7 @@ countries:
       export_download_url: 'https://5-206580440-gh.circle-artifacts.com/0/home/circleci/repo/artifacts/full_import_Monaco_eacf941f8acbd0ca68bb98b02e2e6b98_eacf941f8acbd0ca68bb98b02e2e6b98__cga9y6j4'
       export_md5sum: '5552f1df157e7726cd99392c9299dddd'
   Belgium:
-    - completed: false
+    - completed: true
       download_date: 2019-09-09T10:00:00+0000
       osm_pbf_file: http://download.openstreetmap.fr/extracts/europe/belgium-latest.osm.pbf
       osm_pbf_md5sum: 17630c587d1a44832b1e4d5d345d2533
