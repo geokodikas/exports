@@ -15,11 +15,11 @@ countries:
       export_filename: 'full_import_Belgium_17630c587d1a44832b1e4d5d345d2533__aaih3rnx'
       export_download_url: 'https://19-206580440-gh.circle-artifacts.com/0/home/circleci/repo/artifacts/full_import_Belgium_17630c587d1a44832b1e4d5d345d2533__aaih3rnx'
       export_md5sum: 'a765a92ffa00f83ff1baf9a361f52dd3'
-   - completed: false
-     download_date: 2019-09-13T10:00:00+0000
-     osm_pbf_file: http://download.openstreetmap.fr/extracts/europe/belgium-latest.osm.pbf
-     osm_pbf_md5sum:  aa5d00ccf8f47df8b1b9edb688f79912
-     export_filename: ''
-     export_download_url: ''
-     export_md5sum: ''
+    - completed: false
+      download_date: 2019-09-13T10:00:00+0000
+      osm_pbf_file: http://download.openstreetmap.fr/extracts/europe/belgium-latest.osm.pbf
+      osm_pbf_md5sum:  aa5d00ccf8f47df8b1b9edb688f79912
+      export_filename: ''
+      export_download_url: ''
+      export_md5sum: ''
 
